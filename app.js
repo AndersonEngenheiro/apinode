@@ -24,7 +24,7 @@ function readFile(res, file){
     })
 }
 
-let server = app.listen(1337, function(){
+let server = app.listen(3000, function(){
     let host = server.address().address
     let port = server.address().port
     console.log('servidor iniciado em http://%s:%s', host, port)
